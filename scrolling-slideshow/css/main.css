@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+  scroll-padding-top: 5vh;
+}
+
+.slideShow {
+  display: flex;
+  justify-content: center;
+  padding-top: 5rem;
+  -moz-column-gap: 15rem;
+       column-gap: 15rem;
+}
+.slideShow .slides {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20rem;
+}
+.slideShow .slides img {
+  max-height: 90vh;
+}
+.slideShow .controls {
+  display: flex;
+  flex-direction: column;
+  height: 90vh;
+  row-gap: 0.5rem;
+  position: relative;
+  transition: top 0.1s;
+}
+.slideShow .controls a {
+  width: 7rem;
+  aspect-ratio: 1;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}/*# sourceMappingURL=main.css.map */

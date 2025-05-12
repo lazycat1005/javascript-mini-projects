@@ -1,0 +1,49 @@
+body {
+  padding: 50px;
+}
+
+img {
+  width: 100%;
+  cursor: pointer;
+  margin-bottom: 50px;
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+li {
+  width: 30%;
+}
+
+.lightBox {
+  position: fixed;
+  top: 10%;
+  left: 25%;
+  width: 50vw;
+  height: auto;
+  padding: 40px;
+  background-color: #888;
+}
+
+.darkBg {
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.9);
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+.close {
+  border-radius: 99em;
+  padding: 10px;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  font-size: 30px;
+  cursor: pointer;
+  color: white;
+}

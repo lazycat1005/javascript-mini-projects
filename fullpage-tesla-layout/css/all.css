@@ -1,0 +1,169 @@
+@font-face {
+  font-family: "Gotham Medium";
+  src: url("../font/Gotham-Medium.woff2") format("woff2"),
+    url("../font/Gotham-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Gotham Book";
+  src: url("../font/Gotham-Book.woff2") format("woff2"),
+    url("../font/Gotham-Book.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Gotham Medium";
+}
+
+p,
+span,
+li,
+a {
+  font-family: "Gotham Book";
+}
+
+.logo {
+  width: 100px;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.nav2 {
+  position: absolute;
+  top: 9px;
+  right: 20px;
+}
+
+.section {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+
+#slide1 {
+  background-image: url("../img/bg1.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+#slide2 {
+  background-image: url("../img/bg2.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+#slide3 {
+  background-image: url("../img/bg3.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.car-title {
+  padding-top: 110px;
+}
+
+.car-title h2 {
+  font-size: 41px;
+  margin-bottom: 0;
+}
+
+.car-title p {
+  font-size: 14px;
+  color: black;
+}
+
+.car-title p a {
+  color: black;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: black;
+  margin-left: 3px;
+  margin-right: 3px;
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 13px;
+  letter-spacing: 1px;
+}
+.car-button .btn1 {
+  background-color: #171a20;
+  color: #fff;
+  padding: 10px 40px;
+  border-radius: 30px;
+  font-size: 12px;
+  width: 250px;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  margin: 0 8px;
+}
+
+.car-button .btn2 {
+  background-color: rgba(255, 255, 255, 0.5);
+  color: #000;
+  padding: 10px 40px;
+  border-radius: 30px;
+  font-size: 12px;
+  width: 250px;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  margin: 0 8px;
+}
+
+.car-button .arrow {
+  display: inline-block;
+  margin-top: 15px;
+}
+
+.car-button {
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+}
+
+.fp-tableCell {
+  display: table-cell;
+  vertical-align: top;
+}
+
+.car-title h2,
+.car-title p,
+.car-button .btn1,
+.car-button .btn2,
+.car-button .arrow {
+  opacity: 0;
+  visibility: hidden;
+}
+
+@media (max-width: 990px) {
+  .logo {
+    width: 100px;
+    position: absolute;
+    top: 20px;
+    left: auto;
+    right: 20px;
+  }
+  .navbar {
+    background-color: #fff;
+  }
+  .nav2 {
+    position: relative;
+    right: auto;
+    top: 0;
+  }
+}

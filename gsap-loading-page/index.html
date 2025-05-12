@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Force IE 8/9/10 to use its latest rendering engine -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <!-- Apple iOS -->
+  <meta name="format-detection" content="telephone=no">
+  <!-- Google Android -->
+  <meta name="theme-color" content="#ffffff">
+  <!-- Title -->
+  <title>GSAP-Loading</title>
+  <!-- Main CSS -->
+  <link rel=" stylesheet" href="./css/main.css">
+</head>
+
+<body>
+  <div class="load-container">
+    <span class="loading-text">0%</span>
+  </div>
+
+  <div class="home">
+    <div class="overlay"></div>
+    <video muted loop>
+      <source src="https://cdn.coverr.co/videos/coverr-autumn-lisbon-5773/1080p.mp4" type="video/mp4" />
+    </video>
+    <div class="home-content">
+      <h1>Website title</h1>
+      <div class="middle-line"></div>
+      <button type="button">More</button>
+    </div>
+  </div>
+
+  <!-- Javascript Library -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.0/gsap.min.js"></script>
+  <!-- Main Javascript -->
+  <script src="./js/main.js"></script>
+</body>
+
+</html>

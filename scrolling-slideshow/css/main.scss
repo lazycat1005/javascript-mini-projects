@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+  scroll-padding-top: 5vh;
+}
+
+.slideShow {
+  display: flex;
+  justify-content: center;
+  padding-top: 5rem;
+  column-gap: 15rem;
+  .slides {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20rem;
+    img {
+      max-height: 90vh;
+    }
+  }
+  .controls {
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+    row-gap: 0.5rem;
+    position: relative;
+    transition: top 0.1s;
+    a {
+      width: 7rem;
+      aspect-ratio: 1;
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+  }
+}

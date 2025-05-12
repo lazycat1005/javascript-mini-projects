@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #8b8c89;
+  color: #e7ecef;
+  padding-top: 50px;
+}
+
+section {
+  text-align: center;
+}
+
+h1 {
+  font-size: 50px;
+  margin-bottom: 50px;
+  color: #274c77;
+}
+
+#input {
+  padding: 5px;
+  width: 600px;
+  border-radius: 5px;
+  border: 0px;
+  margin-bottom: 50px;
+}
+
+#add,
+.delete {
+  background-color: #274c77;
+  border: 0px;
+  padding: 5px;
+  width: 100px;
+  border-radius: 5px;
+  color: #e7ecef;
+}
+
+.toDOs {
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  padding: 5px 300px;
+}/*# sourceMappingURL=style.css.map */

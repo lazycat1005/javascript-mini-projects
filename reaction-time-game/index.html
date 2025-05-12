@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ReactionTime</title>
+    <style>
+        :root {
+            --bound: 100px;
+        }
+
+        body {
+            background-color: black;
+            color: white;
+        }
+
+        #box {
+            width: var(--bound);
+            height: var(--bound);
+            background-color: white;
+            display: none;
+            position: relative;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>反應測試</h1>
+    <p>Time：<span id="time">0</span>秒</p>
+    <div id="box"></div>
+    <script src="js/ReactionTime.js"></script>
+</body>
+
+</html>

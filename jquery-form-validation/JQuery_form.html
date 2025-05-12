@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/jQuery_form.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+  <title>jQuery-form</title>
+</head>
+
+<body>
+  <section class="container">
+    <h1>jQuery form</h1>
+    <hr>
+    <form id="validationForm">
+      <label for="First Name">First Name*</label>
+      <input id="FirstName" class="inputStyle width" type="text" name="First Name" placeholder="First Name">
+
+      <label for="Last Name">Last Name*</label>
+      <input id="LastName" class="inputStyle width" type="text" name="Last Name" placeholder="Last Name">
+
+      <label for="email">Email*</label>
+      <input id="email" class="inputStyle width" type="text" name="email" placeholder="email">
+
+      <label for="phone">Phone</label>
+      <input id="phone" class="inputStyle width" type="text" name="phone" placeholder="phone">
+
+      <label for="sex">Sex*</label>
+      <select name="sex" id="sex" class="inputStyle">
+        <option value="man">Man</option>
+        <option value="woman">Woman</option>
+      </select>
+
+      <label for="password1">Password*</label>
+      <input id="password1" class="inputStyle width" type="password" name="password" placeholder="password">
+
+      <label for="password2">Reconfirm*</label>
+      <input id="password2" class="inputStyle width" type="password" name="First Name" placeholder="password reconfirm">
+
+      <label for="message">Message</label>
+      <textarea name="message" id="message" class="inputStyle" cols="80" rows="5"
+        placeholder="enter message"></textarea>
+      <hr>
+      <button id="submit-btn" class="inputStyle btn1" type="submit" name="submit">Submit</button>
+      <button id="reset-btn" class="inputStyle btn2" type="reset" name="reset">Reset</button>
+
+    </form>
+    <div id="error"></div>
+  </section>
+  <script src="js/jQuery_form.js"></script>
+</body>
+
+</html>

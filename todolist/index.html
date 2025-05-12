@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Title -->
+  <title>JavaScript-備忘錄APP</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="w-full h-full bg-gray-800 text-gray-400">
+  <div
+    class=" h-full flex flex-col justify-evenly border-2 mx-4 my-4 px-3 py-4 lg:w-1/3 lg:mx-auto rounded-lg shadow-xl shadow-slate-600">
+
+    <h1 class="text-3xl font-bold">備忘錄</h1>
+
+    <label class="my-3 text-lg" for="content">記事</label>
+    <input class="bg-slate-500 text-slate-200 focus:outline-none ring-0 px-3 py-1 rounded-md" type="text" name="content"
+      id="content">
+
+    <label class="my-3 text-lg" for="date">日期</label>
+    <input class="bg-slate-500 text-slate-200 focus:outline-none ring-0 px-3 py-1 rounded-md" type="date" name="date"
+      id="date">
+
+    <label class="my-3 text-lg" for="time">時間</label>
+    <input class="bg-slate-500 text-slate-200 focus:outline-none ring-0 px-3 py-1 rounded-md" type="time" name="time"
+      id="time">
+
+    <button class="mt-10 mb-4 bg-cyan-700 py-2 rounded-xl hover:bg-cyan-900 duration-300" id="addBtn">新增</button>
+    <button class="mt-4 mb-10 bg-indigo-600 py-2 rounded-xl hover:bg-indigo-800 duration-300"
+      id="deleteBtn">刪除最後一個</button>
+
+    <div id="list"></div>
+  </div>
+
+  <!-- Main Javascript -->
+  <script src="./app.js"></script>
+</body>
+
+</html>
